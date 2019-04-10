@@ -36,7 +36,7 @@ export default class ReactNavbar extends React.Component {
   render() {
       return <div>
           <Navbar className={styles.navbarCustom}>
-          <NavbarBrand className={styles.link}>NF</NavbarBrand>
+          <Link to="/"><NavbarBrand className={styles.link}>NF</NavbarBrand></Link>
           <Nav navbar>
           <NavItem>
           <Link className={styles.link} to="/learn/">Learn</Link>
